@@ -1,9 +1,0 @@
-read -p "Enter file names : " a
-IFS=' '
-read -a arr <<< "$a"
-j=0
-for i in "${arr[@]}" ; do
-rm $i.html
-j=$((j+1))
-done
-echo "$j files deleted"
