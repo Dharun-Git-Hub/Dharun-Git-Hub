@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="deps/style.css">
+</head>
+<body>
+  <div id="topbar">
+    <div id="profile">
+      <img id="butt" src="D.png" onclick="location.href='D.png'">
+    </div>
+    <div id="name">
+      <span id="namecon"><h3><b>${sanitizedUserName}</b></h3></span>
+    </div>
+    <div id="options">
+      <span>...</span>
+    </div>
+  </div>
+  
+  <div id="msgcon">
+    <!-- Message content will go here -->
+  </div>
+
+  <div id="msgbox">
+    <div id="Emoji">
+      <img src="Emoji1.png">
+    </div>
+    <input type="text" placeholder="Message" id="chat-input">
+    <img id="send" src="Send.jpg" onclick="sendMessage()">
+    <div id="Files">
+      <img src="File.png">
+    </div>
+  </div>
+  <script src="deps/script.js">
+</script>
+</body>
+</html>
