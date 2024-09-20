@@ -1,0 +1,204 @@
+
+    body {
+      background-color: black;
+      color: white;
+      margin: 0;
+      display: flex;
+      flex-direction:column;
+      justify-content:flex-start;
+      align-items:center;
+    }
+    #topbar {
+      display: flex;
+      justify-content: space-between;
+      position:relative;
+      align-items: center;
+      width: 100%;
+      height:9vh;
+      background-color: black;
+      position: fixed;
+      top: 0;
+      margin:0;
+    }
+    #profile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 15vw;
+      height: 15vw;
+      text-align: center;
+      background-color: black;
+      position: relative;
+      transition: all 0.2s ease-in-out;
+    }
+    #profile:hover {
+      border-radius:10%;
+      box-shadow: 0px 0px 30px #ff1179;
+    }
+    #name {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: black;
+      flex: 1;
+      border-radius:20%;
+    }
+    #namecon {
+      position: relative;
+      display: inline;
+      background-color: black;
+      transition: all 0.5s ease-in-out;
+    }
+    #namecon:hover {
+      border-radius: 20%;
+      padding: 25px;
+    }
+    #options {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 15vw;
+      height: 15vw;
+      background-color: black;
+      font-size: 25px;
+      color: white;
+      transition: all 0.2s ease-in-out;
+    }
+    #options:hover {
+      border-radius: 10%;
+      box-shadow: 0px 0px 30px #ff2679;
+    }
+    #butt {
+      width: 10vw;
+      height: 10vw;
+      background-color: black;
+      border-radius: 50%;
+    }
+    #msgbox {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      width: 100%;
+      height: 7vh;
+      background-color: black;
+    }
+    #profile,#butt,#namecon,#options,#chatscreen,#msgbox {
+      user-select:none;
+    }
+    ::selection {
+      background-color:white;
+      color:#ff2679;
+    }
+    #chat-input {
+      background-color: black;
+      color: white;
+      caret-color: #ff2679;
+      overflow-y: auto;
+      overflow-x: hidden;
+      font-size: 20px;
+      border: none;
+      width: 55%;
+      max-height: 300vw;
+      border-radius: 30%;
+      outline: none;
+      padding:10px;
+    }
+    #Emoji {
+      display:flex;
+      width:15vw;
+      height:15vw;
+      max-height:250vw;
+      justify-content:center;
+      align-items:center;
+    }
+    #Files {
+      display:flex;
+      justify-content:flex-start;
+      align-items:center;
+    }
+    #Emoji img {
+      width:70%;
+      height:70%;
+    }
+    #Files img {
+      width:7vw;
+      border-radius:50%;
+      height:7vw;
+    }
+    #Emoji::before {
+      content:'';
+      position:absolute;
+      top:2px;
+      background-color:#ffff79;
+      height:2px;
+      width:0;
+      left:0;
+      transition: width 1s ease-in-out;
+    }
+    #Emoji:hover::before {
+      width:100%;
+      left:0;
+    }
+    #send {
+      width:10vw;
+      height:10vw;
+      border-radius:50%;
+      transition: box-shadow 0.1s ease-in-out;
+    }
+    #send.active {
+      box-shadow: 0px 0px 10px, 0px 0px 20px green;
+    }
+    #Files::before {
+      content:'';
+      position:absolute;
+      top:2px;
+      background-color:#ff2679;
+      height:2px;
+      width:0;
+      right:0;
+      transition: width 1s ease-in-out;
+    }
+    #Files:hover::before {
+      width:100%;
+      right:0;
+    }
+    #Box {
+      display:inline-block;
+      max-width:65%;
+      background-color:pink;
+      border-radius:30px;
+      margin:5px;
+      padding: 5px 10px;
+      color:white;
+      word-wrap: break-word;
+    }
+    #msgcon {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height:86.4vh;
+      background-color: black;
+      align-items: flex-end;
+      justify-content: flex-end;
+      overflow-y: auto;
+    }
+    #messg {
+      display:inline-block;
+      max-width:65%;
+      background-color:yellow;
+      border-radius:30px;
+      margin:5px;
+      padding: 10px 20px;
+      color:black;
+      word-wrap: break-word;
+    }
+    #error {
+      display:inline-block;
+      max-width:65%;
+      background-color:red;
+      border-radius:30px;
+      margin:5px;
+      padding: 10px 20px;
+      color:white;
+      word-wrap: break-word;
+    }
