@@ -39,7 +39,7 @@ I've created some of the Fullstack Applications those are for your kind referenc
 ## 🏆 LeetCode Stats  
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/Dharun__?theme=dark&font=Nunito&ext=contest" alt="LeetCode Stats" />
+  <img src="https://leetcard.jacoblin.cool/Dharun__?theme=highcontrast&font=Poppins&ext=contest" alt="LeetCode Stats" />
 </p>  
 
 ---
