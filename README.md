@@ -17,21 +17,21 @@ I've created some of the Fullstack Applications those are for your kind referenc
 
 ---
 
-## 🛠️ Tech Stack  
-
-**Frontend:** React, Angular, AngularJS, HTML, CSS, JavaScript  
-**Backend:** Node.js, Express.js, Java Spring Boot  
-**Databases:** MongoDB, SQL  
-**Tools & Others:** Git, GitHub, WebSockets, REST APIs  
-
----
-
 ## 📊 GitHub Stats  
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Dharun-Git-Hub&show_icons=true&theme=radical" alt="GitHub Stats" height="160"/>  
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dharun-Git-Hub&layout=compact&theme=radical" alt="Top Languages" height="160"/>  
 </p>  
+
+---
+
+## 🛠️ Tech Stack  
+
+**Frontend:** React, Angular, AngularJS, HTML, CSS, JavaScript  
+**Backend:** Node.js, Express.js, Java Spring Boot  
+**Databases:** MongoDB, SQL  
+**Tools & Others:** Git, GitHub, WebSockets, REST APIs  
 
 ---
 
