@@ -20,8 +20,9 @@ I've created some of the Fullstack Applications those are for your kind referenc
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dharun-Git-Hub&show_icons=true&theme=radical" alt="GitHub Stats" height="160"/>  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dharun-Git-Hub&layout=compact&theme=radical" alt="Top Languages" height="160"/>  
+  <img src="https://github-readme-stats.vercel.app/api?username=Dharun-Git-Hub&show_icons=true&theme=highcontrast" alt="GitHub Stats" height="160"/>  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dharun-Git-Hub&layout=compact&theme=dark" alt="Top Languages" height="160"/>  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dharun-Git-Hub&theme=tokyonight&hide_border=true" alt="Streak" height="160"/>
 </p>  
 
 ---
