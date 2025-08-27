@@ -46,6 +46,7 @@ I've created some of the Fullstack Applications those are for your kind referenc
 
 ## 📫 Connect with Me  
 - 💼 [LinkedIn](https://www.linkedin.com/in/dharun-vignesh-g)  Dharun Vignesh G
+- ❤️ https://about-dharun.vercel.app/ Portfolio !
 - 📧 **gdvbca@gmail.com**  
 - 📱 **+91 9514434193**  
 
